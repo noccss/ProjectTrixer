@@ -1,0 +1,151 @@
+.define-chat{
+    display: grid;
+	grid-template-columns: 23% 77%;
+	width: 100%;
+}
+
+.contact{
+    background: #34495e;
+    margin-top: -2px;
+}
+
+.header-contact{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    border-bottom: 1px solid #26354450;
+    color: #fff;
+}
+
+.container-contact{
+    margin-top: 20px;
+}
+
+.container-contact li{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    border: 1px solid #26354450;
+    padding: 5px;
+}
+
+.container-contact p{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.container-contact button{
+	cursor: pointer;
+	background: #34495e;
+	border: 1px solid #26354450;
+	width: 100%;
+}
+
+.container-contact li:hover{
+    transition: .5s;
+    background: #26354450;
+}
+
+.container-contact img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-contact img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.header-contact h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.chat{
+    height: auto;
+    width: 100%;
+}
+
+.header-chat{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 0fr 1fr 20%;
+    background: #e7e8e9;
+}
+
+.header-chat a{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #34495e;
+    border: 1px solid #34495e;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.header-chat a:hover{
+    background: #4774a1;
+    border: 1px solid #4774a1;
+}
+
+.header-chat img{
+    height: 70px;
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.header-chat h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.container-chat{
+    height: 540px;
+    background: #b9c2c5;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+.chat-receive{
+    background: #367faf;
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: #fff;
+}
+
+.chat-send{
+    background: #fff;
+    margin-left: 58%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.footer-chat{
+    height: 35px;
+    display: grid;
+	grid-template-columns: 90% 100%;
+}
+
+.footer-chat input{
+    height: 35px;
+    width: 100%;
+}
+
+.footer-chat button{
+	width: 10%;
+	background: #34495e;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #34495e;
+}

@@ -1,0 +1,64 @@
+.box-product-new {
+    width: 65%;
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.box-product-new input{
+    width: 50%;
+    position: relative;
+    display: grid;
+    margin: 10px auto;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 2px solid #7597ad;
+}
+
+.box-product-new textarea{
+    width: 50%;
+    position: relative;
+    display: grid;
+    margin: 10px auto;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #7597ad;
+    resize: none;
+    height: 90px;
+}
+
+.box-product-new label{
+    font-size: 19px;
+    color: #2980b9;
+    cursor: text;
+}
+
+.box-product-new button {
+    margin-top: 3%;
+    height: 50px;
+    width: 275px;
+    cursor: pointer;
+    border: 1px solid #bdc3c7;
+    border-radius: 12px;
+    background: #3498db;
+    color: #fff;
+    transition: .2s;
+}
+
+.box-product-new button:hover{
+    color: #ddd;
+    background: #2980b9;
+}
+
+.box-product-new a {
+    float: left;
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.box-product-new a:hover{
+    color: #286e9c;
+}

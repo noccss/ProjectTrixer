@@ -1,0 +1,367 @@
+/* init Header template */
+
+.define-home{
+    height: 2443px;
+    width: 1440px;
+    background: #fff;
+    width: auto;
+}
+
+.header-home{
+    background: #34495E;
+    height: 61px;
+}
+
+.header-home img{
+    height: 60px;
+    padding-left: 70px;
+    float: left;
+}
+
+.navbar-home{
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar-home:hover{
+    background: #fff;
+    color: #34495E;
+    transform: scale(1.1);
+}
+
+.navbar-home-login{
+    float: right;
+    padding: 20px 20px;
+    margin-right: 80px;
+    color: #34495E;
+    text-decoration: none;
+    background: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 7%;
+    text-align: center;
+    transition: .3s linear;
+}
+
+.navbar-home-login:hover{
+    background: #2980b9;
+    color: #fff;
+}
+
+/* Final header Template */
+
+/* Init welcome-Message template */
+.welcome-img{
+    width: 100%;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    height: 680px;
+
+}
+
+.welcome-img::after{
+    background: url(../../assets/Inicio/welcome.jpg) no-repeat;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: .3;
+    animation: anim 25s linear infinite;
+}
+
+@keyframes anim{
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.welcome-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.welcome-text h1{
+    color: #236591;
+    text-transform: uppercase;
+    font-size: 44px;
+}
+
+.welcome-text p {
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.welcome-text a{
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid #2980b9;
+    color: #2980b9;
+    transition: .3s;
+}
+
+.welcome-text a:hover{
+    background: #2980b9;
+    color: #fff;
+}
+
+/* final welcome-Message */
+
+/* init details */
+.home-details{
+    background: #34495E;
+    height:341px;
+}
+
+.box-1{
+    margin-left: 400px;
+    float: left;
+    background: #2980b9;
+    padding: 30px 40px;
+    width: 260px;
+    text-align: center;
+    height: 190px;
+}
+
+.box-1 p{
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box-2{
+    float: left;
+    background: #236591;
+    padding: 30px 40px;
+    width: 260px;
+    text-align: center;
+    height: 190px;
+}
+
+.box-2 p{
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box-3{
+    float: left;
+    background: #2980b9;
+    padding: 30px 40px;
+    width: 260px;
+    text-align: center;
+    height: 190px;
+}
+
+.box-3 p{
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+/* final details */
+
+/* init about */
+
+.home-about{
+    height: 780px;
+    background: #fff;
+}
+
+.home-about img{
+    float: right;
+    width: 55%;
+}
+
+.home-about h1{
+    margin-top: 50px;
+    margin-left: 10px;
+    float: left;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #34495E;
+}
+
+.home-about p{
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #34495E;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.home-about h2{
+    float: left;
+    margin-top: 80px;
+    margin-left: 90px;
+    color: #3498DB;
+    font-size: 23px;
+}
+
+.home-about a{
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    border: 3px solid #2980b9;
+    padding: 20px;
+    text-decoration: none;
+    color: #2980b9;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.home-about a:hover{
+    background: #2980b9;
+    color: #fff;
+}
+
+/* final about */
+
+/* init como funciona */
+
+.home-howtodo{
+    height: 901px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+
+.home-howtodo img{
+    width: 500px;
+}
+
+.home-howtodo h1{
+    color: #2980b9;
+    margin-right: 250px;
+    margin-top: 10%;
+    font-size: 23px;
+    width: 100%;
+}
+
+.home-howclient{
+    margin-top: 50px;
+    color: #2C3E50;
+    font-size: 23px;
+    width: 100%;
+}
+
+.home-howfreela{
+    margin-top: 50px;
+    color: #2c3e50;
+    font-size: 23px;
+}
+
+.home-howtodo p{
+    width: 40%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495E;
+    width: 100%;
+}
+
+/* Final como fazer */
+
+/* Init Contato */
+.home-contact{
+    height: 20px;
+    background: #2980b9;
+    padding: 10px;
+    height: 540px;
+}
+
+.home-contact h1{
+    margin-left: 580px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.box-contact{
+    background: #fff;
+    border: 1px solid #2980b9;
+    height: 350px;
+    width: 650px;
+    margin-left: 30%;
+    border-radius: 13px;
+}
+
+.box-contact label{
+    display: grid;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-contact input{
+    height: 30px;
+    width: 60%;
+    margin-left: 120px;
+    background: #E9E1E1;
+    border: 1px solid #9b9999;
+}
+
+.box-contact textarea{
+    height: 50px;
+    width: 60%;
+    margin-left: 120px;
+    background: #E9E1E1;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    resize: none;
+}
+
+.box-contact button{
+    margin-left: 190px;
+    height: 45px;
+    width: 40%;
+    background: #3498DB;
+    border: 1px solid #3494d4;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    transition: .3s;
+}
+
+
+.box-contact button:hover{
+    background: #2C3E50
+}
+/* Final Contato */
+
+/* Init footer */
+/* 
+.home-footer{
+    height: 200px;
+    background: #3498DB;
+    padding-left: 35%;
+}
+
+.icon{
+    width: 60px;
+    margin-top: 65px;
+    margin-left: 50px;
+    height: 60px;
+    color: #fff
+} */

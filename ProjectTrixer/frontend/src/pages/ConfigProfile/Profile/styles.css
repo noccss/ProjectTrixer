@@ -1,0 +1,144 @@
+.define-config{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    background: #fff;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.config-bars{
+    width: 320px;
+    text-align: center;
+}
+
+.config-bars li{
+    padding: 20px 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.config-bars li:hover{
+    background: #ecececab;
+    border-left: 3px solid #2980b9;
+}
+
+.config-bars a{
+    text-decoration: none;
+    color: #7f8c8d;
+}
+
+.last{
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.box-config{
+    width: 100%;
+    max-height: 500px;
+    display: grid;
+}
+
+.header-config{
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.header-config img{
+    width: 120px;
+    border: 1px solid none;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-config button{
+    float: right;
+    background: #1abc9c;
+    color: #fff;
+    border: 1px solid #1abc9c;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.header-config button:hover{
+    background: #4dc4ac;
+}
+
+.change-img{
+    display: none;
+}
+
+.header-config label{
+    background: #3498db;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 10px;
+}
+
+.header-config label:hover{
+    background: #2980b9;
+}
+
+.config-name{
+    margin: 30px;
+    margin-left: 130px;
+}
+
+.config-profile-locale button{
+    float: right;
+    cursor: pointer;
+    border: 1px solid #6a9dbe;
+    border-radius: 5px;
+    background: #6a9dbe;
+    color: #fff;
+    height: 30px;
+    width: 60px;
+}
+
+.config-profile-locale button:hover{
+    background: #3498db;
+}
+
+.config-profile-geral{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.config-profile-geral p{
+    margin-bottom: 1px;
+    color: #7f8c8d;
+}
+
+.config-profile-geral input{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+    border: 1px solid #a9b5b6;
+    border-radius: 5px;
+}
+
+.config-profile-bio{
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 120px;
+    width: 350px;
+}
+
+.config-profile-bio span{
+    color: #7f8c8d;
+}
+
+.config-profile-bio textarea{
+    color: #7f8c8d;
+    height: 90px;
+    resize: none;
+    border: 1px solid #a9b5b6;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,127 @@
+.box-payment{
+    border-radius: 10px;
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding: 10px;
+    background: #fff;
+}
+
+.box-payment button{
+    float: right;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    background: #c0392b;
+    border: 1px solid #c0392b;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.box-payment button:hover{
+    background: #9e3023;
+}
+
+.box-payment h1{
+    color: #2980b9;
+    font-size: 26px;
+    background: none;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.box-payment p{
+    background: none;
+    margin-bottom: 20px;
+}
+
+.box-payment a{
+    background: none;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.box-payment a:hover{
+    color: #1a4f72;
+}
+
+/* .box-payment input{
+    margin-top: 20px;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #2980b9;
+    background: #2980b9;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: .3s;
+    font-size: 18px;
+} */
+
+.payment-input{
+    cursor: pointer;
+    margin-top: 20px;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #2980b9;
+    background: #2980b9;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: .3s;
+    font-size: 18px;
+}
+
+.payment-input-error{
+    cursor: no-drop;
+    margin-top: 20px;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #2980b9;
+    background: #2980b9;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: .3s;
+    font-size: 18px;
+}
+
+.payment-input-error:hover{
+    background: #2980b9;
+}
+
+.payment-input:hover{
+    background: #1f5e88;
+}
+
+.box-payment span{
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #fff;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.fileSend{
+    background: #2980b9;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+    color: #fff;
+}
+
+.fileSend:hover{
+    background: #1c5d88;
+}

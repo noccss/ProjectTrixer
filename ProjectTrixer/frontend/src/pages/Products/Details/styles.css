@@ -1,0 +1,75 @@
+.box-details{
+    background: #fff;
+    padding: 40px;
+    margin: auto;
+    margin-top: 5%;
+    width: 75%;
+    height: auto;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.box-details strong{
+    font-size: 18px;
+    color: #30336b;
+}
+
+.box-details h5{
+    float: right;
+    color: #2980b9;
+    font-size: 18px;
+}
+
+.box-details p{
+    margin-top: 20px;
+    color: #95afc0;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.box-details h3{
+    text-align: center;
+    color: #22a6b3;
+}
+
+.box-details h1{
+    text-align: center;
+    color: #22a6b3;
+    font-size: 18px;
+}
+
+.box-details ul{
+    list-style: none;
+    color: #95afc0;
+}
+
+.box-details h2{
+    color: #95afc0;
+    text-align: end;
+}
+
+.proposta-details-on {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #2980b9;
+    background: none;
+    margin-top: 10px;
+    color: #2980b9;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    width: 100%;
+    cursor: pointer;
+}
+
+.proposta-details-on:hover {
+    background: #2980b9;
+    color: #fff;
+}
+
+.proposta-details-off{
+    display: none;
+}
