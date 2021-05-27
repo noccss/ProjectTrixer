@@ -1,7 +1,7 @@
 // Update with your config settings.
 
 module.exports = {
-
+  // comentário
   development: {
     client: 'sqlite3',
     connection: {
